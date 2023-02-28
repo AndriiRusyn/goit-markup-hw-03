@@ -1,0 +1,172 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0,8);
+  --title-text-color: #434455;
+  --accent-color: #4D5AE5;
+  --primary-white-color: #ffffff;
+  --primary-heading-text: #2E2F42;
+  --cornflower: #E7E9FC;
+
+}
+
+
+body {
+background-color: var(--primary-white-color)
+color: var(--primary-text-color);
+font-family: Roboto;
+}
+
+
+
+.logo-link  {
+  color: var(--primary-heading-text);
+  text-decoration:  none;
+    width: 71px;
+    height: 24px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.web-text {
+  color: var(--accent-color);
+    width: 71px;
+    height: 24px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+/* Navigation and contact-info */
+.site-nav .link {
+ color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  
+  
+}
+.site-nav, .contact-list, .list {
+  list-style: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+} 
+
+
+.contact-info a {
+  color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    
+}
+
+.contact-list a:hover,
+.contact-list a:focus {
+  color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+  /* Section Hero */
+.hero {
+
+}
+
+.hero-title {
+
+  color: var(--primary-heading-text);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+}
+
+
+
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+
+/* Advantages 'work examples') */
+ 
+.list {
+  color: var(--primary-heading-text);
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.text {
+  color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  padding: 12px 24px;
+  display: inline-block; 
+  border-color: transparent; 
+  text-decoration: none;
+  font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.button.primary {
+ background-color: var(--accent-color);
+ color: var(--primary-white-color);
+ cursor: pointer;
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--cornflower);
+  cursor: pointer;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* portfoliio buttons */
+
