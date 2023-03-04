@@ -16,6 +16,12 @@ font-family: Roboto;
 }
 
 
+.list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
 
 .logo-link  {
   color: var(--primary-heading-text);
@@ -42,17 +48,33 @@ font-family: Roboto;
 
 /* Navigation and contact-info */
 .site-nav .link {
- color: var(--title-text-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
-  
-  
+  -----------
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+
 }
+
+  .site-nav li {
+    margin-right: 40px;
+  }
+
+  .logo-link {
+    margin-left: 156px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+
 .site-nav, .contact-list, .list {
   list-style: none;
 }
+
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -64,6 +86,7 @@ font-family: Roboto;
 } 
 
 
+
 .contact-info a {
   color: var(--title-text-color);
     font-size: 16px;
@@ -71,6 +94,7 @@ font-family: Roboto;
     text-decoration: none;
     
 }
+
 
 .contact-list a:hover,
 .contact-list a:focus {
@@ -82,11 +106,16 @@ font-family: Roboto;
 
   /* Section Hero */
 .hero {
+text-align: center;
 
 }
 
 .hero-title {
-
+  margin-top: 0;
+  margin-bottom: 40px;
+  outline: 1px solid tomato;
+  background-color: tomato
+  ;
   color: var(--primary-heading-text);
   font-weight: 700;
   font-size: 56px;
@@ -100,11 +129,15 @@ font-family: Roboto;
 
 /* Section */
 .section-title {
+  margin-top: 0;
+  margin-bottom: 40px;
   color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
+    margin-top: 0;
+
 }
 
 
@@ -114,6 +147,7 @@ font-family: Roboto;
   color: var(--primary-heading-text);
     font-size: 20px;
     line-height: 1.2;
+    display: flex;
 }
 
 .text {
@@ -168,5 +202,66 @@ font-family: Roboto;
   overflow: hidden;
 }
 
-/* portfoliio buttons */
 
+/* padding magrgin */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+img {
+  display: flex;
+}
+
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1158px;
+  outline: 2px solid tomato;
+}
+
+
+
+.page-header {
+ background-color: #ccc;
+}
+
+
+
+.site-nav {
+  margin-left: 76px;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+
+.contact-list {
+  display: flex;
+  margin-left: 1px;
+  outline: 1px solid teal;
+}
+
+
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  outline: 1px solid yellow;
+}
