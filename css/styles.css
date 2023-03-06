@@ -33,20 +33,20 @@ img {
 .list {
   padding: 0;
   margin: 0;
-  display: flex;
+  /* display: flex; */
 }
 
 
 .logo-link  {
   color: var(--primary-heading-text);
   text-decoration:  none;
-    width: 71px;
+    width: 112px;
     height: 24px;
-    text-decoration: none;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    /* outline: 1px solid white; */
 }
 
 .web-text {
@@ -58,7 +58,11 @@ img {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    margin-left: auto;
+    /* outline: 1px solid black; */
 }
+
+
 
 /* Navigation and contact-info */
 .site-nav .link {
@@ -68,21 +72,21 @@ img {
   line-height: 1.5;
   text-decoration: none;
   -----------
-  display: block;
+  display: flex;
   padding-top: 21px;
   padding-bottom: 21px;
+  /* outline: 1px solid black; */
 
 }
 
-  .site-nav li {
-    margin-right: 40px;
-  }
-
+ 
+ 
+/* 
   .logo-link {
     margin-left: 156px;
     margin-top: 24px;
     margin-bottom: 24px;
-  }
+  } */
   
 
 .site-nav, .contact-list, .list {
@@ -100,6 +104,10 @@ img {
 } 
 
 
+.site-nav .link {
+margin-right: 40px;
+}
+
 
 .contact-info a {
   color: var(--title-text-color);
@@ -107,6 +115,14 @@ img {
     line-height: 1.5;
     text-decoration: none;
     
+}
+
+.contact-info {
+  margin-left: auto;
+}
+
+.contact-info .contact-list + .contact-list {
+  margin-left: 40px;
 }
 
 
@@ -127,8 +143,8 @@ text-align: center;
 .hero-title {
   margin-top: 0;
   margin-bottom: 40px;
-  outline: 1px solid tomato;
-  background-color: tomato
+  /* outline: 1px solid tomato; */
+  /* background-color: tomato */
   ;
   color: var(--primary-heading-text);
   font-weight: 700;
@@ -183,6 +199,9 @@ text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    margin-right: 24px;
+    border-radius: 7px;
+    
 }
 
 
@@ -249,13 +268,13 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 
 
 .page-header {
- background-color: #ccc;
+ /* background-color: #ccc; */
 }
 
 
@@ -263,13 +282,19 @@ img {
 .site-nav {
   margin-left: 76px;
   margin-right: auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
+
+.site-nav .item:last-child {
+margin-right: 0;
+}
+
+
 
 .contact-list {
   display: flex;
   margin-left: 1px;
-  outline: 1px solid teal;
+  /* outline: 1px solid teal; */
 }
 
 
@@ -277,7 +302,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  outline: 1px solid yellow;
+  /* outline: 1px solid yellow; */
 }
 
 
@@ -286,6 +311,11 @@ img {
 .card-heading {
   margin-top: 32px;
   margin-left: 16px;
+
+    font-size: 20px;
+      line-height: 1.2;
+
+  color: var(--primary-heading-text);
 }
 
 .card-content {
@@ -297,15 +327,16 @@ img {
 }
 
 .card-text {
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 16px;
 }
 
 .container {
-  width: 960px;
+  width: 1126px;
   padding-left: 15px;
   padding-right: 15px;
 
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   /* background-color: #ccc; */
@@ -330,4 +361,14 @@ img {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+}
+
+/* end of portfolio css */
+
+/* portfolio buttons */
+
+.portfolio-buttons {
+  margin-bottom: 72px;
+  margin-top: 96px;
+  margin-left: 427px;
 }
