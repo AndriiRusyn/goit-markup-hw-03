@@ -370,5 +370,15 @@ margin-right: 0;
 .portfolio-buttons {
   margin-bottom: 72px;
   margin-top: 96px;
-  margin-left: 427px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+
+
+
+/* footer */
+
+.footer-container {
+
+
 }
