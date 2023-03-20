@@ -1,0 +1,196 @@
+:root {
+  --Primary-Brand-IRIS : #4D5AE5;
+  --Pressed-State-OCEAN: #404BBF;
+  --Dark-NAVY-BLUE: #2E2F42;
+  --Success-GREEN: #31D0AA;
+  --Text-SLATE: #434455;
+  --Subtle-Text-Light-Slate: #8E8F99;
+  --Accent-CORNFLOWER: #E7E9FC;
+  --Light-CLOUD: #F4F4FD;
+  --Modal-Overlay-NavyBLUEmodal: #2E2F4266;
+  --Hero-background-GREY: #2E2F42B2;
+  --White-background-WHITE: #FFFFFF;
+  --Modal-background-DAIRY:  #FCFCFC;
+  --Body-Backgroung: #E5E5E5;
+}
+
+
+
+
+
+
+body {
+  background: var(--White-background-WHITE);
+  color: var(--Text-SLATE);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+.list {
+  list-style: none;
+}
+
+
+
+
+
+/* header css */
+
+
+
+.logo {
+        color: var(--Dark-NAVY-BLUE);
+
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        Font-size: 18px;
+        Line-height: 1.16;
+
+        text-decoration: none;
+      
+}
+
+.accent {
+     color: var(--Primary-Brand-IRIS);
+
+}
+
+
+.site-nav .link{
+color: var(--Dark-NAVY-BLUE);
+
+/* font-family: roboto; */
+font-weight: 500;
+/* font-size: 16px; */
+/* line-height: 1.5 */
+
+text-decoration: none;
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--Pressed-State-OCEAN);
+}
+
+.site-nav .link.current {
+  color: var(--Pressed-State-OCEAN);
+}
+
+.contact-info .link:hover,
+.contact-info .link:focus {
+  color: var(--Pressed-State-OCEAN);
+}
+.contact-info .link {
+  color: var(--Dark-NAVY-BLUE);
+
+    font-weight: 400;
+    /* font-size: 16px; */
+    /* line-height: 1.5 */
+
+    text-decoration: none;
+}
+
+
+
+
+/* section hero */
+
+.hero-title {
+  
+    color: var(--White-background-WHITE);
+    /* font-family: roboto; */
+    font-size: 56px;
+    line-height: 1.0;
+    text-align: center;
+}
+
+
+.hero {
+  background-color: var(--Dark-NAVY-BLUE);
+}
+
+
+/* section */
+
+.section-title {
+
+  /* font-family: roboto; */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+   
+}
+
+
+
+
+/* section features css */
+
+.feature-title {
+    color: var(--Dark-NAVY-BLUE);
+
+    /* font-family: roboto; */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+/* section team  */
+
+
+.team {
+  background-color: var(--Light-CLOUD);
+}
+
+
+
+
+
+/* section footer */
+
+.hero > p {
+  color: var(--White-background-WHITE);
+
+}
+
+.logo-studio {
+  color: var(--Light-CLOUD);
+}
+
+
+
+
+
+.button {
+  color: var(--White-background-WHITE);
+  background-color: var(--Primary-Brand-IRIS);
+
+    /* font-family: roboto; */
+    font-weight: 500;
+    /* font-size: 16px; */
+    /* line-height: 1.5 */
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button.primary {
+  color: var(--Primary-Brand-IRIS);
+  background-color: var(--Light-CLOUD);
+}
+
+.button.secondary {
+  color: var(--White-background-WHITE);
+  background-color: var(--Pressed-State-OCEAN);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--White-background-WHITE);
+  background-color: var(--Pressed-State-OCEAN);
+}
