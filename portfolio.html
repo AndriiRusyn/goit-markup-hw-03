@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -19,24 +19,26 @@
   <!-- header section  -->
 
   <header class="page-header">
-    <nav>
-    <a href="./index.html" target="_self" rel="noopener nofollow noreferrer" class="logo current"><span
-        class="accent">WEB</span>STUDIO</a>
-      <ul class="site-nav list">
-        <li><a href="./studio.html" class="link">Studio</a></li>
-        <li><a href="./portfolio.html" class="link current">Portfolio</a></li>
-        <li><a href="./contacts.html" class="link">Contacts</a></li>
-      </ul>
+    <div class="container main-nav">
+      <nav class="main-nav">
+        <a href="./index.html" target="_self" rel="noopener nofollow noreferrer" class="logo current"><span
+            class="accent">WEB</span>STUDIO</a>
+        <ul class="site-nav list">
+          <li class="item"><a href="./studio.html" class="link">Studio</a></li>
+          <li class="item"><a href="./portfolio.html" class="link current">Portfolio</a></li>
+          <li class="item"><a href="./contacts.html" class="link">Contacts</a></li>
+        </ul>
+      </nav>
 
-    </nav>
-    <ul class="contact-info list">
-      <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-      <li><a href="tel:+11(000)111-11-11" class="link">+11 (000) 111-11-11</a></li>
-    </ul>
+      <div class="contacts">
+        <ul class="contact-info list">
+          <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li class="item"><a href="tel:+11(000)111-11-11" class="link">+11 (000) 111-11-11</a></li>
+        </ul>
+      </div>
 
-
+    </div>
   </header>
-
 
 
 <!-- main section starts here  -->
@@ -46,7 +48,165 @@
 
   <main>
 
-<h1>The content of Portfolio page is in process</h1>
+<!-- section with butttons is here -->
+
+  <section class="container">
+    <h1 visually hidden>Portfolio</h1>
+    <ul class="list portfolio-buttons">
+      <li><button type="button" class="button primary"><strong>All</strong></button></li>
+      <li><button type="button" class="button primary"><strong>Web Site</strong></button></li>
+      <li><button type="button" class="button primary"><strong>App</strong></button></li>
+      <li><button type="button" class="button primary"><strong>Design</strong></button></li>
+      <li><button type="button" class="button primary"><strong>Marketing</strong></button></li>
+    </ul>
+  </section>
+
+<!-- section with buttons finish here -->
+
+
+
+
+<div class="container">
+  <ul class="card-set">
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/banking-app.jpg" alt="app-screenshot">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Banking App Interface Concept</h2>
+          <p class="card-text">App</p>
+        </div>
+      </article>
+    </li>
+
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Cashless-Payment.jpg" alt="Phone-with-terminal">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Cashless Payment</h2>
+          <p class="card-text">Marketing
+          </p>
+        </div>
+      </article>
+    </li>
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Meditation-App.jpg" alt="Laptop-and-Phone">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Meditaion App</h2>
+          <p class="card-text">App
+          </p>
+        </div>
+      </article>
+    </li>
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Taxi-Service.jpg" alt="steering-wheel">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Taxi Service</h2>
+          <p class="card-text">Marketing</p>
+        </div>
+      </article>
+    </li>
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Screen-Illustration.jpg" alt="phone-screen">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Screen Illustrations</h2>
+          <p class="card-text">Design
+          </p>
+        </div>
+      </article>
+    </li>
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Online-Courses.jpg" alt="girl-with-phone">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Online Courses</h2>
+          <p class="card-text">Marketing
+        </div>
+      </article>
+    </li>
+
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Instagram-Storis-Concept.jpg" alt="Instagram-Storis-Concept">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Instagram Stories Concept</h2>
+          <p class="card-text">Design
+          </p>
+        </div>
+      </article>
+    </li>
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Organic-Food.jpg" alt="Bag-with-vegetables">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Organic Food</h2>
+          <p class="card-text">Web Site
+          </p>
+        </div>
+      </article>
+    </li>
+
+    <li class="item">
+      <article class="card">
+        <div class="card-thumb">
+          <img src="./images/Fresh-Coffe.jpg" alt="Coffie-mug">
+        </div>
+
+
+        <div class="card-content">
+          <h2 class="card-heading">Fresh Coffee</h2>
+          <p class="card-text">Web Site
+          </p>
+        </div>
+      </article>
+    </li>
+
+
+
+
+  </ul>
+</div>
 
   </main>
 

@@ -25,11 +25,21 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-
-
-
-
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  margin-bottom:0;
+}
+
+
 
 .list {
   list-style: none;
@@ -63,11 +73,39 @@ body {
 }
 
 
-.site-nav .link{
-   color: var(--Dark-NAVY-BLUE);
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
 
-   font-weight: 500;
-   text-decoration: none;
+
+.site-nav {
+  display: flex;  
+  margin-left: 76px;
+}
+
+.site-nav .item {
+  margin-right: 40px;
+}
+
+
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
+
+
+
+.site-nav .link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  
+    color: var(--Dark-NAVY-BLUE);
+    font-weight: 500;
+    text-decoration: none;
 }
 
 
@@ -91,43 +129,43 @@ body {
     text-decoration: none;
 }
 
-
-.page-header {
-  background-color: #ccc;
-
-
-
+.contact-info {
+  display: flex;
+  margin-left: 0;
 }
 
+.contact-info .item + .item {
+  margin-left: 40px;
+}
+
+
+
+
+.page-header {
+  /* background-color: #ccc; */
+  
+  
+}
+
+
+/* main container settings  */
 .container {
-  width: 1140px;
+  width: 1158px;
 
 
   margin-left: auto;
   margin-right: auto;
 
 
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 
 
   outline: 2px solid tomato;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* section hero */
+/* style for the section hero */
 
 .hero-title {
     margin-top: 0;
@@ -137,10 +175,9 @@ body {
     /* font-family: roboto; */
     font-size: 56px;
     line-height: 1.0;
-    
 
-    /* background-color: tomato */
-    ;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 
 
@@ -148,60 +185,149 @@ body {
   background-color: var(--Dark-NAVY-BLUE);
 
   text-align: center;
+
+  margin-bottom: 120px;
 }
 
 
 /* section */
 
 .section {
-  
+margin-bottom: 120px;
 }
 
-.section-title {
+/* section examples of work  */
 
-  /* font-family: roboto; */
+
+.work-examples {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-element {
+  margin-right: 24px;
+}
+
+.flex-element:nth-child(3n) {
+  margin-right: 0;
+}
+
+.flex-element:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+
+
+/* section advantages  */
+
+
+.section-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
-   
+  padding-bottom: 72px;
+  padding-top: 120px;
 }
 
 
 
+.advantages {
+  display: flex;
+  padding-bottom: 120px;
+  justify-content: space-between;
+  
+  
+}
 
-/* section features css */
 
-.feature-title {
+.advantages .item {
+    flex-basis: calc((100% - 80px) / 4);
+}
+
+
+
+/* section advantages css */
+
+.advantages-title {
     color: var(--Dark-NAVY-BLUE);
 
-    /* font-family: roboto; */
+
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+
+    margin: 0;
+    margin-bottom: 8px;
+
 }
 
 
-/* section team  */
+/* css for section our team  */
 
 
 .team {
   background-color: var(--Light-CLOUD);
 }
 
-
-
-
-
-/* section footer */
-
-.hero > p {
-  color: var(--White-background-WHITE);
-
+.team-list {
+ flex-direction:row
+  /* display: flex;
+  flex-wrap: wrap;
+  margin-right: 24px; */
+  /* width: calc(100% / 4); */
 }
 
-.logo-studio {
-  color: var(--Light-CLOUD);
+
+/* 
+.team-element:nth-child(4n) {
+  margin-right: 0;
+}
+
+.team-element:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* Buttons  */
+
+
+.hero-btn {
+  color: var(--White-background-WHITE);
+  background-color: var(--Primary-Brand-IRIS);
+
+
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  width: 169px;
+  height: 56px;
+  text-align: center;
+
+
+
+  padding: 16px 32px;
+  margin-bottom: 188px;
+
+
+
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--White-background-WHITE);
+  background-color: var(--Pressed-State-OCEAN);
 }
 
 
@@ -216,8 +342,8 @@ body {
     display: inline-block;
     border-radius: 4px;
     border: 1px solid transparent;
-    width: 169px;
-    height: 56px;
+    /* width: 169px;
+    height: 56px; */
     text-align: center;
 
 
@@ -252,3 +378,74 @@ body {
 
 
 
+/* Portfolio CSS  */
+
+.card-set {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.card-set > .item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
+
+.card-content {
+  padding: 10px;
+}
+
+.card {
+  box-shadow: var(--card-shadow);
+}
+
+.card-text {
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+
+.card-heading {
+  margin-top: 32px;
+  margin-left: 16px;
+
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+
+/* portfolio buttons  */
+
+.portfolio-buttons {
+  display: flex;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  justify-content: space-between;
+
+}
+
+
+/* calc((100% - 48px) / 3); */
+
+
+
+
+/* section footer */
+
+.hero>p {
+  color: var(--White-background-WHITE);
+
+}
+
+.logo-studio {
+  color: var(--Light-CLOUD);
+}
