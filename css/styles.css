@@ -143,11 +143,6 @@ img {
 
 
 
-
-.page-header {
-}
-
-
 /* main container settings  */
 .container {
   width: 1158px;
@@ -161,7 +156,7 @@ img {
   padding-right: 15px;
 
 
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 
@@ -190,13 +185,62 @@ img {
 }
 
 
+
+
+
+/* section advantages  */
+
+
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom:120px;
+  
+}
+
+
+
+
+.description-title {
+  width: 260px;
+
+
+
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.description-title:nth-child(4n) {
+  margin-right: 0;
+}
+ 
+
+.description-title:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+
+.advantages-title {
+  color: var(--Dark-NAVY-BLUE);
+
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+
+
+  margin-bottom: 8px;
+}
+
+
 /* section examples of work  */
 
 
 .work-examples {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .flex-element {
@@ -213,8 +257,10 @@ img {
 
 
 
-/* section advantages  */
 
+
+
+/* css for section our team  */
 
 .section-title {
   font-size: 36px;
@@ -223,41 +269,6 @@ img {
   text-align: center;
   padding-bottom: 72px;
 }
-
-
-
-.advantages {
-  display: flex;
-  padding-bottom: 120px;
-  justify-content: space-between;
-  
-  
-}
-
-
-.advantages .item {
-    flex-basis: calc((100% - 80px) / 4);
-}
-
-
-
-/* section advantages css */
-
-.advantages-title {
-    color: var(--Dark-NAVY-BLUE);
-
-
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-
-    margin: 0;
-    margin-bottom: 8px;
-
-}
-
-
-/* css for section our team  */
 
 
 .team {
@@ -287,8 +298,8 @@ border: 1px solid var(--Accent-CORNFLOWER);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 border-top: none;
-
 }
+
 
 .feature-title {
   margin-top: 0;
@@ -303,11 +314,8 @@ border-top: none;
 .our-team {
   display: flex;
   flex-wrap: wrap;
-
 }
  
-
-
 
 
 /* Buttons  */
@@ -336,6 +344,8 @@ border-top: none;
   text-decoration: none;
   cursor: pointer;
 }
+
+
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--White-background-WHITE);
