@@ -161,7 +161,7 @@ img {
   padding-right: 15px;
 
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 
@@ -190,18 +190,13 @@ img {
 }
 
 
-/* section */
-
-.section {
-margin-bottom: 120px;
-}
-
 /* section examples of work  */
 
 
 .work-examples {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 120px;
 }
 
 .flex-element {
@@ -227,7 +222,6 @@ margin-bottom: 120px;
   line-height: 1.11;
   text-align: center;
   padding-bottom: 72px;
-  padding-top: 120px;
 }
 
 
@@ -268,6 +262,8 @@ margin-bottom: 120px;
 
 .team {
   background-color: var(--Light-CLOUD);
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .team-list {
@@ -283,14 +279,21 @@ margin-bottom: 120px;
 
 .team-title {
 text-align: center;
-padding: 0;
+padding: 32px 16px;
+background-color: var(--White-background-WHITE);
+
+
+border: 1px solid var(--Accent-CORNFLOWER);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+border-top: none;
 
 }
 
 .feature-title {
   margin-top: 0;
   background-color: var(--White-background-WHITE);
-  padding-top: 32px;
+  padding-top: 32px 16px;
 }
 .team-title > p {
   background-color: var(--White-background-WHITE);
@@ -300,6 +303,7 @@ padding: 0;
 .our-team {
   display: flex;
   flex-wrap: wrap;
+
 }
  
 
@@ -442,19 +446,31 @@ padding: 0;
 }
 
 
-/* calc((100% - 48px) / 3); */
+
 
 
 
 
 /* section footer */
 
-.hero > p {
-  color: var(--White-background-WHITE);
-
-}
 
 .logo-studio {
   color: var(--Light-CLOUD);
 }
 
+.foot-title {
+  background-color: var(--Dark-NAVY-BLUE);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.foot-description {
+  color: var(--Accent-CORNFLOWER);
+  
+
+}
+.foot-description > p {
+  padding-top:16px;
+  width: 264px;
+  height: 110px;
+}
