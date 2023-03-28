@@ -127,24 +127,26 @@ img {
 .contact-info .link:hover,
 .contact-info .link:focus {
   color: var(--Pressed-State-OCEAN);
+  
 }
 .contact-info .link {
     color: var(--Dark-NAVY-BLUE);
  
     font-weight: 400;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .contact-info {
   display: flex;
   margin-left: 0;
-  
-  
 }
 
 .contact-info .item + .item {
   margin-left: 40px;
 }
+
 
 
 
