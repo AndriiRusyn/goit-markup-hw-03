@@ -112,6 +112,7 @@ img {
     color: var(--Dark-NAVY-BLUE);
     font-weight: 500;
     text-decoration: none;
+
 }
 
 
@@ -145,6 +146,11 @@ img {
 
 .contact-info .item + .item {
   margin-left: 40px;
+}
+
+.page-header {
+  border-top: none;
+    border-bottom: 1px solid var(--Accent-CORNFLOWER);
 }
 
 
