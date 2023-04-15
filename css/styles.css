@@ -47,6 +47,11 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+}
+
+.link {
+  font-style: normal;
 }
 
 img {
@@ -70,6 +75,8 @@ img {
         Line-height: 1.16;
 
         text-decoration: none;
+
+        margin-right: 76px;
       
 }
 
@@ -176,16 +183,25 @@ img {
 /* style for the section hero */
 
 .hero-title {
-    margin-top: 0;
-    margin-bottom: 48;
+    /* margin-top: 0;
+    margin-bottom: 48px; */
 
     color: var(--White-background-WHITE);
     /* font-family: roboto; */
     font-size: 56px;
     line-height: 1.0;
+    
+    text-align: center;
+    margin: auto;
 
-    padding-top: 188px;
+    
+    max-width: 496px;
+    padding: 188px 0;
     padding-bottom: 48px;
+    
+
+    
+    
 }
 
 
@@ -193,8 +209,10 @@ img {
   background-color: var(--Dark-NAVY-BLUE);
 
   text-align: center;
-
+ 
   margin-bottom: 120px;
+
+  
 }
 
 
@@ -208,7 +226,7 @@ img {
 .advantages {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom:120px;
+  padding: 120px 0 120px;
   
 }
 
@@ -218,7 +236,7 @@ img {
 .description-title {
   width: 260px;
 
-
+ width: calc((100% - 72px) / 4);
 
   margin-right: 24px;
   margin-bottom: 24px;
@@ -280,7 +298,7 @@ img {
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 
@@ -316,6 +334,7 @@ border-top: none;
 
 .feature-title {
   margin-top: 0;
+  margin-bottom: 8px;
   background-color: var(--White-background-WHITE);
   padding-top: 32px 16px;
 }
@@ -329,7 +348,9 @@ border-top: none;
   flex-wrap: wrap;
 }
  
-
+.team-description {
+  
+}
 
 /* Buttons  */
 
@@ -339,20 +360,21 @@ border-top: none;
   background-color: var(--Primary-Brand-IRIS);
 
 
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid transparent;
+  display: block;
+  
+  /* border-radius: 4px;
+  border: 1px solid transparent; */
+  border: none;
   width: 169px;
   height: 56px;
-  text-align: center;
-
-
+  min-width: 169px; 
 
   padding: 16px 32px;
   margin-bottom: 188px;
+  margin: auto;
 
 
-
+  text-align: center;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
