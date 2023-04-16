@@ -78,7 +78,7 @@ img {
 
         margin-right: 76px;
         display: inline-block;
-        margin-bottom: 16px;
+        /* /* margin-bottom: 16px;  */
       
 }
 
@@ -146,16 +146,20 @@ img {
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: flex;
 }
 
 .contact-info {
   display: flex;
   margin-left: 0;
+  gap: 40px;
+
 }
 
-.contact-info .item + .item {
-  margin-left: 40px;
-}
+/* .contact-info .item + .item {
+  /* margin-left: 40px; */
+  
+} */
 
 .page-header {
   border-top: none;
@@ -170,11 +174,13 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  display: flex;
-  gap: 40px;
+  
 }
 
+.address-item {
+  display: flex;
+
+}
 
 
 /* main container settings  */
