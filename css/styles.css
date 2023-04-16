@@ -77,6 +77,8 @@ img {
         text-decoration: none;
 
         margin-right: 76px;
+        display: inline-block;
+        margin-bottom: 16px;
       
 }
 
@@ -548,6 +550,7 @@ border-top: none;
 
 .footer-description {
   color: var(--Accent-CORNFLOWER);
+  max-width: 264px;
   
 
 }
