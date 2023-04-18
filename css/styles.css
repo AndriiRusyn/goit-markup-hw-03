@@ -78,7 +78,7 @@ img {
 
         margin-right: 76px;
         display: inline-block;
-        /* /* margin-bottom: 16px;  */
+        /* margin-bottom: 16px;  */
       
 }
 
@@ -146,20 +146,26 @@ img {
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
+    
+    margin-right: 40px;
     display: flex;
+    gap: 40px;
 }
 
-.contact-info {
-  display: flex;
-  margin-left: 0;
-  gap: 40px;
 
+.contacts {
+    font-style: normal;
+    margin-left: auto;
 }
-
-/* .contact-info .item + .item {
-  /* margin-left: 40px; */
+.contact-item {
   
-} */
+}
+
+.contact-info .item + .item {
+  /* margin-left: 40px; */
+  gap: 40px;
+}
+  
 
 .page-header {
   border-top: none;
@@ -203,8 +209,8 @@ img {
 /* style for the section hero */
 
 .hero-title {
-    /* margin-top: 0;
-    margin-bottom: 48px; */
+    /* margin-top: 0; */
+    /* margin-bottom: 48px; */
 
     color: var(--White-background-WHITE);
     /* font-family: roboto; */
@@ -216,8 +222,7 @@ img {
 
     
     max-width: 496px;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    
     
 
     
@@ -226,11 +231,13 @@ img {
 
 
 .hero {
-  background-color: var(--Dark-NAVY-BLUE);
+    background-color: var(--Dark-NAVY-BLUE);
 
-  text-align: center;
+    text-align: center;
+    
  
-  margin-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
   
 }
@@ -256,7 +263,7 @@ img {
 .description-title {
   width: 260px;
 
- width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 
   margin-right: 24px;
   margin-bottom: 24px;
@@ -288,13 +295,16 @@ img {
 /* section examples of work  */
 
 
+
 .work-examples {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .section-examples {
   padding-bottom: 120px;
+  
 }
 
 .flex-element {
@@ -391,16 +401,20 @@ border-top: none;
   width: 169px;
   height: 56px;
   min-width: 169px; 
+  
 
+ 
   padding: 16px 32px;
-  margin-bottom: 188px;
   margin: auto;
+  margin-top: 48px;
+
 
 
   text-align: center;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
+  
 }
 
 
@@ -431,6 +445,7 @@ border-top: none;
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 .button.primary {
@@ -521,9 +536,8 @@ border-top: none;
 .portfolio-buttons {
   display: flex;
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 
-  display: flex;
   justify-content: center;
   
 
@@ -535,7 +549,6 @@ border-top: none;
   padding-right: 24px;
   
 }
-
 
 
 
