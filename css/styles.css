@@ -147,9 +147,9 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     
-    margin-left: 40px;
+
     display: flex;
-    gap: 40px;
+    
 }
 
 
@@ -157,15 +157,15 @@ img {
     font-style: normal;
     margin-left: auto;
 }
-.contact-item {
-  
-}
 
-.contact-info .item + .item {
-  /* margin-left: 40px; */
+
+.contact-info:last-child {
+  margin-right: 0;
+}
+.contact-info {
   gap: 40px;
 }
-  
+
 
 .page-header {
   border-top: none;
@@ -267,6 +267,9 @@ img {
 
   margin-right: 24px;
   margin-bottom: 24px;
+
+  border-radius: 0px 0px 4px 4px;
+
 }
 
 .description-title:nth-child(4n) {
