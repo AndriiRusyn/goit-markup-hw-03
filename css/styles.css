@@ -505,6 +505,7 @@ padding: 96px 0 120px;
   padding: 12px 24px;
   color: var(--Primary-Brand-IRIS);
   background-color: var(--Light-CLOUD);
+  border-color: var(--Accent-CORNFLOWER);
   border: 1px solid var(--Accent-CORNFLOWER);
 }
 
