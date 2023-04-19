@@ -549,12 +549,16 @@ padding: 96px 0 120px;
   
 }
 
-.card-set > .item {
+.card-set > .card-item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
-}
+ }
 
+.card-item {
+  width: calc((100% - 48px) / 3);
+  column-gap: 24px;
+}
 
 .card-content {
   padding: 10px;
