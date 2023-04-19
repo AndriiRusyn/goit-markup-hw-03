@@ -626,11 +626,15 @@ margin-right: 0;
 }
 
 
-.button.primary:hover,
-.button.primary:focus {
+.button:hover,
+.button:focus {
   border: 1px solid transparent;
 }
 
+.primary:hover,
+.primary:focus {
+border: 1px solid transparent;
+}
 
 
 /* section footer */
