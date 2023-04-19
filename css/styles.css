@@ -79,8 +79,44 @@ img {
         margin-right: 76px;
         display: inline-block;
         /* margin-bottom: 16px;  */
+        
       
 }
+
+
+.logo {
+        color: var(--Dark-NAVY-BLUE);
+
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        Font-size: 18px;
+        Line-height: 1.16;
+
+        text-decoration: none;
+
+        margin-right: 76px;
+        display: inline-block;
+        /* margin-bottom: 16px;  */
+}
+
+
+
+.logo-down {
+  color: var(--Dark-NAVY-BLUE);
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  Font-size: 18px;
+  Line-height: 1.16;
+
+  text-decoration: none;
+
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px; 
+}
+
+
 
 .accent {
      color: var(--Primary-Brand-IRIS);
