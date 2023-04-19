@@ -510,6 +510,7 @@ padding: 96px 0 120px;
 
 .button.secondary {
   color: var(--White-background-WHITE);
+  border: 1px solid transparent;
   
 
 }
@@ -518,6 +519,7 @@ padding: 96px 0 120px;
 .button:focus {
   color: var(--White-background-WHITE);
   background-color: var(--Pressed-State-OCEAN);
+  border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-color: var(--Pressed-State-OCEAN);
   
@@ -588,8 +590,8 @@ padding: 96px 0 120px;
   /* padding-top: 96px; */
 
   justify-content: center;
-  /* margin-bottom: 72px;
-   */
+  margin-bottom: 72px;
+   
   padding: 96px 0 120px;
   gap: 24px;
 }
